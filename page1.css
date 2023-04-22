@@ -1,0 +1,121 @@
+/*--------------------VARIABLES CSS o CUSTOM PROPERTIES-------------*/
+
+:root{
+    --first-color: #f94632; /*color original #00b5d9*/
+    --first-alpha-color:#fc2912ec;
+    --second-color: #14192d;
+    --second-alpha-color: rgba(20,25,45,0.75);
+    --transparent-color: rgba(20, 25, 45, 0);
+    --hero-text-color:#14192d
+ 
+    --font: "Raleway","sans-serif"; 
+ 
+    --max-width:1200px;
+    --header-height:4rem;
+ }
+
+ /*------------------navbar------------------------------------------*/
+ .btn-a{
+    background-color: var(--first-color);
+    border-radius: 0.5rem;
+ }
+ .navbar-bg-transparente{
+    background-color: transparent !important;
+ }
+ .header-bg{
+    position: absolute;
+    width: 100%;
+ }
+ .navbar-a {
+    color: var(--second-color);
+ }
+
+ /*************************HeroImage*******************************/
+.hero-image{
+    background-image: var(--hero-image);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+    background-attachment: var(--hero-attachment);
+}
+.hero-image-opacity {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    
+    align-items: center;
+    background-color: var(--hero-opacity-color);
+    text-align: center;
+}
+
+.hero-image-title {
+    color: var(--hero-text-color);
+    font-size: 7.5vw;
+}
+
+/*++++++++++++++++seccion servicios+++++++++++++++++++++++++*/
+.subtitle {
+    color: var(--hero-text-color);
+    font-size: 4vw;
+}
+.text{
+    color: var(--hero-text-color);
+    font-size: 3vw;
+}
+.service-card{
+   
+    max-width: 350px;
+    height: auto;
+    max-height: 350px;
+}
+.service-card-img{
+
+    width: 30%;
+    
+}
+.title-card{
+    color: var(--hero-text-color);
+    font-size: 6vw;
+}
+
+@media screen and (min-width:900px ) {
+    .title-card {
+        font-size: 3vw;
+    }
+
+    .text{
+        
+        font-size: 1.5vw;
+    }
+
+}
+
+/********************section roja***************************/
+.section-des{
+    background-color: var(--first-color);
+}
+
+.section-des-item {
+    width: 100%;
+}
+.des-img{
+    max-width: 100%;
+}
+.des-item-img {
+    border-radius: 2rem;
+}
+
+@media screen and (min-width:900px ) {
+    .section-des-item {
+        width: auto;
+    }
+
+    .des-img{
+        max-width: 35%;
+    }
+    .des-text{
+        
+        width: 60%;
+    }
+
+}

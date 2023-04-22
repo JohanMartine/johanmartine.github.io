@@ -769,6 +769,11 @@ progress::-moz-progress-bar {
         /*grid-template-columns: repeat(2,45%);*/
     }
 
+    .portfolio1 > .container{
+        display: grid;
+        grid-template-columns: repeat(3,33%);
+    }
+
     .portfolio .section-title{
         grid-column:  span 3;
     }
